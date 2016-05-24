@@ -38,7 +38,7 @@ public class ConfirmarDatos extends AppCompatActivity {
         tvEmail.setText((CharSequence) bndRecuperar.get(getResources().getString(R.string.emailKey)));
         tvDescripcion.setText((CharSequence) bndRecuperar.get(getResources().getString(R.string.descripcionKey)));
 
-        
+
         bEditar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
